@@ -67,6 +67,7 @@ html {
     font-size: 19px;
     text-align: center;
     cursor: pointer;
+    transition: 0.3s;
 
 }
 
@@ -107,6 +108,8 @@ html {
     font-weight: 300;
     font-size: 19px;
     cursor: pointer;
+    transition: 0.3s;
+
 
 }
 
@@ -201,8 +204,11 @@ html {
     bottom: 0;
     left: 162px;
     display: flex;
+    justify-content: space-evenly;
 }
 
+
+/*--------BOOK ONE--------*/
 .bookBox-1 {
     position: absolute;
     width: 303px;
@@ -231,7 +237,7 @@ html {
     position: absolute;
     font-size: 48px;
     margin: 0;
-    top: 0;
+    top: 10px;
     left: 28px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
@@ -250,6 +256,7 @@ html {
 }
 
 
+/*--------BOOK TWO--------*/
 
 .bookBox-2 {
     position: absolute;
@@ -258,7 +265,206 @@ html {
     left: 315px;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+
+
 }
+
+.eatWhatYoureGiven-Pic {
+    position: absolute;
+    top: 48px;
+    z-index: 1;
+}
+
+.zero {
+    font-size: 30px;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.number2 {
+    position: absolute;
+    font-size: 48px;
+    margin: 0;
+    top: 10px;
+    left: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.eatWhatYoureGiven-text {
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    z-index: 1;
+
+}
+
+/*--------BOOK THREE--------*/
+
+.bookBox-3 {
+    position: absolute;
+    width: 303px;
+    height: 360px;
+    left: 630px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+
+}
+
+.hesBeenThereForAnHour-Pic {
+    position: absolute;
+    top: 48px;
+    z-index: 1;
+}
+
+.zero {
+    font-size: 30px;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.number3 {
+    position: absolute;
+    font-size: 48px;
+    margin: 0;
+    top: 10px;
+    left: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.hesBeenThereForAnHour-text {
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    z-index: 1;
+
+}
+
+/*--------BOOK FOUR--------*/
+
+.bookBox-4 {
+    position: absolute;
+    width: 303px;
+    height: 360px;
+    right: 670px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+
+}
+
+.sorryGrandma-Pic {
+    position: absolute;
+    top: 48px;
+    z-index: 1;
+}
+
+.zero {
+    font-size: 30px;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.number4 {
+    position: absolute;
+    font-size: 48px;
+    margin: 0;
+    top: 10px;
+    left: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.sorryGrandma-text {
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    z-index: 1;
+
+}
+
+/*--------BOOK FIVE--------*/
+
+.bookBox-5 {
+    position: absolute;
+    width: 303px;
+    height: 360px;
+    right: 355px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+
+}
+
+.theNightWeDiscovered-Pic {
+    position: absolute;
+    top: 48px;
+    z-index: 1;
+}
+
+.zero {
+    font-size: 30px;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.number5 {
+    position: absolute;
+    font-size: 48px;
+    margin: 0;
+    top: 10px;
+    left: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    z-index: 1;
+
+}
+
+.theNightWeDiscovered-text {
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    z-index: 1;
+
+}
+
 
 .dotBox {
     position: absolute;
@@ -280,6 +486,7 @@ html {
     opacity: 1;
     transition: 0.3s;
     cursor: pointer;
+    z-index: 1;
 
 }
 
@@ -292,14 +499,20 @@ html {
     right: 0;
 }
 
+/*--------HOVERS AND SUCH--------*/
+
 
 .short-story-text:hover {
     color: #fff;
 }
 
-.contact-author-btn:hover,
+.contact-author-btn:hover {
+    background-color: #E5DBCE;
+}
+
 .donate-btn:hover {
-    color: #fff;
+    background-color: #C7A79B;
+
 }
 
 .dot1:hover,
@@ -309,7 +522,18 @@ html {
 
 }
 
-.bookBox-1:hover {
+.bookBox-1:hover,
+.bookBox-2:hover,
+.bookBox-3:hover,
+.bookBox-4:hover,
+.bookBox-5:hover {
     background-color: rgb(182, 198, 204);
     cursor: pointer;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
 }

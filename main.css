@@ -6,7 +6,7 @@ html {
   margin: 0;
   overflow: hidden;
 }
-  
+
 
 .contactBox-1 {
   background: #000;
@@ -66,7 +66,7 @@ html {
   justify-content: center;
   text-align: center;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .donateBox-1 {
@@ -104,7 +104,7 @@ html {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .shortStoryBox-1 {
@@ -164,7 +164,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.1s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -186,13 +186,14 @@ html {
   width: 1200px;
   height: 400px;
   left: 20px;
-  border: 1px solid white;
   top: 150px;
-  background-color: #ffffff;
+  background-color: #ffffff64;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  display: none;
+
+
 
 }
 
@@ -224,11 +225,14 @@ html {
 .bookBox-1-description {
   display: flex;
   justify-content: center;
+
+
 }
 
 .kinkyKenny-title {
   position: absolute;
-  top: 55px;
+  top: 25px;
+  margin: 0;
   height: 50px;
   font: 300 48px 'Josefin Sans', sans-serif;
 
@@ -237,9 +241,25 @@ html {
 .kinkyKenny-para {
   position: absolute;
   text-align: center;
+  top: 130px;
   margin: 0;
   font: 100 30px 'Josefin Sans', sans-serif;
 
+}
+
+.readBook-button {
+  position: absolute;
+  bottom: 50px;
+  height: 60px;
+  width: 600px;
+  background-color: #000;
+  color: #fff;
+  font: 300 23px 'Josefin Sans', sans-serif;
+  transition: 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -453,7 +473,7 @@ html {
   bottom: 45px;
   display: flex;
   justify-content: center;
-  transition: 0.5s;
+  transition: 0.2s;
   z-index: 1;
 }
 
@@ -474,7 +494,7 @@ html {
 
 .dot1 {
   left: 0;
-  
+
 }
 
 
@@ -531,4 +551,22 @@ html {
   box-shadow: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.readBook-button:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.readBook-button:active {
+  box-shadow: none;
+}
+
+
+.bold-text {
+  font-weight: 500;
 }

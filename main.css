@@ -7,6 +7,11 @@ html {
   overflow: hidden;
 }
 
+.blind {
+  display: none;
+
+}
+
 
 .contactBox-1 {
   background: #000;
@@ -181,21 +186,6 @@ html {
   top: 170px;
 }
 
-.descriptionBoxes {
-  position: absolute;
-  width: 1200px;
-  height: 400px;
-  left: 360px;
-  top: 150px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: none;
-
-
-
-}
 
 .bookBoxes {
   position: absolute;
@@ -222,49 +212,6 @@ html {
   transition: 0.2s;
 }
 
-.bookBox-1-description {
-  display: flex;
-  justify-content: center;
-
-
-}
-
-.kinkyKenny-title {
-  position: absolute;
-  top: 25px;
-  margin: 0;
-  height: 50px;
-  font: 300 48px 'Josefin Sans', sans-serif;
-
-}
-
-.kinkyKenny-para {
-  position: absolute;
-  text-align: center;
-  top: 130px;
-  margin: 0;
-  font: 100 30px 'Josefin Sans', sans-serif;
-
-}
-
-.readBook-button {
-  position: absolute;
-  bottom: 50px;
-  height: 60px;
-  width: 600px;
-  background-color: #000;
-  color: #fff;
-  font: 300 23px 'Josefin Sans', sans-serif;
-  transition: 0.2s;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-
 .KennysGreatEscape-Pic {
   position: absolute;
   top: 48px;
@@ -288,6 +235,64 @@ html {
   position: absolute;
   bottom: 60px;
   text-align: center;
+}
+
+.bookDescriptions-kinkyKenny,
+.bookDescriptions-eatWhatYoureGiven {
+  position: absolute;
+  width: 1778px;
+  height: 423px;
+  top: 144px;
+  left: 0;
+  border: 1px solid black;
+  display: none;
+  
+}
+
+.bookDescription-1,
+.bookDescription-2 {
+  position: relative;
+  height: inherit;
+  width: inherit;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.kinkyKennyDescrip-title,
+.eatWhatYoureGivenDescrip-title {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  font: 500 48px 'Josefin Sans', sans-serif;
+
+}
+
+.kinkyKennyDescrip-text,
+.eatWhatYoureGivenDescrip-text {
+  position: absolute;
+  font: 300 30px 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+
+}
+
+.readNowbutton {
+  position: absolute;
+  width: 600px;
+  height: 75px;
+  background-color: #000;
+  bottom: 45px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 300 25px 'Josefin Sans', sans-serif;
+
 }
 
 /*--------BOOK TWO--------*/
@@ -553,16 +558,18 @@ html {
   cursor: pointer;
 }
 
-.readBook-button:hover {
+.readNowbutton:hover {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
     0 6.7px 5.3px rgba(0, 0, 0, 0.028),
     0 12.5px 10px rgba(0, 0, 0, 0.035),
     0 22.3px 17.9px rgba(0, 0, 0, 0.042),
     0 41.8px 33.4px rgba(0, 0, 0, 0.05),
     0 100px 80px rgba(0, 0, 0, 0.07);
+
+
 }
 
-.readBook-button:active {
+.readNowbutton:active {
   box-shadow: none;
 }
 

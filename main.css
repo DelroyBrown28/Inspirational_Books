@@ -8,9 +8,7 @@ html {
 }
 
 .blind {
-  display: block;
-  animation-name: spin;
-  animation-duration: 2s;
+  display: none;
   
   
 }
@@ -222,7 +220,7 @@ html {
   transition: 0.2s;
 }
 
-.drugDealerBoyfriend-Pic {
+.KennysGreatEscape-Pic {
   position: absolute;
   top: 48px;
 }
@@ -240,7 +238,7 @@ html {
   left: 28px;
 }
 
-.DrugDealerBoyfriend-text {
+.KennysGreatEscape-text {
   font: 400 19px 'Josefin Sans', sans-serif;
   position: absolute;
   bottom: 60px;
@@ -430,6 +428,7 @@ html {
   bottom: 45px;
   display: flex;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .dot1,
@@ -441,17 +440,26 @@ html {
   width: 10px;
   border-radius: 100px;
   opacity: 1;
-  transition: 0.3s;
+  transition: 2s;
   cursor: pointer;
   z-index: 1;
+
 }
 
 .dot1 {
   left: 0;
+  
 }
+
 
 .dot3 {
   right: 0;
+
+}
+
+
+.dotBox {
+  transform: translateY(-5px);
 }
 
 /*--------HOVERS AND SUCH--------*/

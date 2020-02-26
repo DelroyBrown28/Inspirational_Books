@@ -4,8 +4,11 @@ $(document).ready(function () {
         $(".bookDescriptions-kinkyKenny").slideToggle();
     });
 
+
     $(".bookBox-2").click(function () {
-        $(".bookDescriptions-eatWhatYoureGiven").slideToggle(); 
+        $(".bookDescriptions-eatWhatYoureGiven").slideToggle();
     });
+
+
 
 });

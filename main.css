@@ -213,8 +213,9 @@ html {
 
 }
 
-.KennysGreatEscape-Pic {
+.iamaprincess-Pic {
   position: absolute;
+  height: 166px;
   top: 48px;
 }
 
@@ -231,7 +232,7 @@ html {
   left: 28px;
 }
 
-.KennysGreatEscape-text {
+.iamaprincess-text {
   font: 400 19px 'Josefin Sans', sans-serif;
   position: absolute;
   bottom: 60px;
@@ -262,7 +263,7 @@ html {
 
 }
 
-.kinkyKennyDescrip-title,
+.iAmaPrincess-title,
 .eatWhatYoureGivenDescrip-title {
   position: absolute;
   top: 0;
@@ -271,7 +272,7 @@ html {
 
 }
 
-.kinkyKennyDescrip-text,
+.iAmaPrincess-text,
 .eatWhatYoureGivenDescrip-text {
   position: absolute;
   font: 300 30px 'Josefin Sans', sans-serif;
@@ -284,19 +285,20 @@ html {
 
 .readNowbutton {
   position: absolute;
-  width: 300px;
+  width: 600px;
   height: 75px;
+  border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
   bottom: 65px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.1s;
   opacity: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   font: 300 25px 'Josefin Sans', sans-serif;
-  
+
 
 
 }
@@ -492,6 +494,7 @@ html {
   position: relative;
   height: 35px;
   bottom: 0;
+  z-index: 1;
 }
 
 
@@ -541,8 +544,13 @@ html {
 }
 
 .readNowbutton:hover {
-  border: 1px solid #000;
-  width: 500px;
+  background-color: rgb(141, 153, 158);
+  box-shadow:
+    0 0.7px 3.6px rgba(0, 0, 0, 0.024),
+    0 1.9px 10px rgba(0, 0, 0, 0.035),
+    0 4.5px 24.1px rgba(0, 0, 0, 0.046),
+    0 15px 80px rgba(0, 0, 0, 0.07);
+
 
 }
 

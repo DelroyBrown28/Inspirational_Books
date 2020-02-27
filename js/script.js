@@ -1,7 +1,7 @@
 function slideUpFunction() {
     $(".main-title").slideUp();
     $(".blurb").slideUp();
-    $(".bookDescriptions-kinkyKenny").delay(500).slideDown();
+    $(".bookDescriptions-iamprincess").delay(500).slideDown();
     $(".readNowbutton").delay(1000).animate({
         opacity: 1,
         width: "300",
@@ -12,7 +12,7 @@ function slideUpFunction() {
 }
 
 function slideDownFunction() {
-    $(".bookDescriptions-kinkyKenny").slideUp();
+    $(".bookDescriptions-iamprincess").fadeOut();
     $(".main-title").delay(800).slideDown();
     $(".blurb").delay(500).slideDown();
     $("body").css("background-color", "#A5B4BA")

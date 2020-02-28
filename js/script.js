@@ -25,6 +25,7 @@ $(document).ready(function () {
         $(".blurb").delay(500).slideDown();
         $(".bookBox-1").unbind("click", slideDownFunction);
         $(".bookBox-1").click(slideUpFunction);
+
     }
 
     //BRINGS UP FULL STORY
@@ -36,7 +37,15 @@ $(document).ready(function () {
         $(".bookBox-1, .bookBox-2, .bookBox-3, .bookBox-4, .bookBox-5").animate({
             top: "800",
         });
-        $(".readNowbutton").unbind("click")
+        $(".selectStoryBox").animate({
+            right: "2800",
+        });
+        $(".bookDescription-1").delay(1000).animate({
+            top: "120",
+        });
+        $("hr").slideToggle();
+        $("hr").unbind("click");
+        $(".readNowbutton").unbind("click");
         $(".readNowbutton").click(readNowReverse);
     }
 
@@ -44,6 +53,8 @@ $(document).ready(function () {
         $(".bookBox-1, .bookBox-2, .bookBox-3, .bookBox-4, .bookBox-5").animate({
             top: "0",
         });
+        $("hr").slideToggle();
+
 
     }
 

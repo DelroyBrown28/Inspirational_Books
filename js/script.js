@@ -20,6 +20,11 @@ $(document).ready(function () {
     function slideDownFunction() {
         $(".bookDescriptions-iamprincess").fadeOut();
         $(".main-title").delay(800).slideDown();
+        $(".readNowbutton").delay(1000).animate({
+            opacity: 1,
+            width: "300",
+        });
+
         $(".bookBox-2, .bookBox-3, .bookBox-4, .bookBox-5").animate({
             top: "0",
         });
@@ -37,9 +42,7 @@ $(document).ready(function () {
         $(".bookBox-1, .bookBox-2, .bookBox-3, .bookBox-4, .bookBox-5").animate({
             top: "800",
         });
-        $(".selectStoryBox").animate({
-            right: "2800",
-        });
+        $(".selectStoryBox").slideToggle();
         $(".bookDescription-1").delay(1000).animate({
             top: "120",
         });
@@ -55,11 +58,9 @@ $(document).ready(function () {
         $(".bookBox-1, .bookBox-2, .bookBox-3, .bookBox-4, .bookBox-5").animate({
             top: "0",
         });
+        $(".selectStoryBox").slideToggle();
         $(".bookDescription-1").animate({
             top: "0",
-        });
-        $(".selectStoryBox").animate({
-            right: "2800",
         });
         $("hr").slideToggle();
 

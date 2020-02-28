@@ -233,11 +233,11 @@ html {
 }
 
 .iamaprincess-text {
-  font: 400 19px 'Josefin Sans', sans-serif;
   position: absolute;
-  bottom: 60px;
+  font: 300 30px 'Josefin Sans', sans-serif;
   text-align: center;
-}
+  margin: 0;
+  bottom: 60px;}
 
 .bookDescriptions-iamprincess,
 .bookDescriptions-thirtyyearslater {
@@ -270,15 +270,28 @@ html {
   top: 0;
   text-align: center;
   font: 500 48px 'Josefin Sans', sans-serif;
+  
 
 }
 
-.iAmaPrincess-text,
+.iAmaPrincess-title {
+  text-shadow: rgba(49, 49, 49, 0.37) 3px 3px;
+}
+
+.iAmaPrincess-descripText,
 .thirtyyearslater-text {
   position: absolute;
   font: 300 30px 'Josefin Sans', sans-serif;
   text-align: center;
   margin: 0;
+  bottom: 60px;
+
+}
+
+.iAmaPrincess-descripText {
+  padding: 0px 40px 0px 40px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
   bottom: 200px;
 
 }
@@ -288,7 +301,8 @@ html {
   position: absolute;
   width: 600px;
   height: 75px;
-  border: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
   background-color: transparent;
   color: #fff;
   bottom: 65px;
@@ -341,13 +355,6 @@ html {
   z-index: 1;
 }
 
-.thirtyyearslater-text {
-  font: 400 19px 'Josefin Sans', sans-serif;
-  position: absolute;
-  bottom: 60px;
-  text-align: center;
-  z-index: 1;
-}
 
 /*--------BOOK THREE--------*/
 

@@ -63,6 +63,7 @@ $(document).ready(function () {
             right: "2000",
         });
         $(".readNowbutton").delay(500).fadeOut();
+        $(".readNowbutton").click(slideDownFunction);
 
 
     }

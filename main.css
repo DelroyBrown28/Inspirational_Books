@@ -71,7 +71,7 @@ html {
   justify-content: center;
   text-align: center;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .donateBox-1 {
@@ -109,7 +109,7 @@ html {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .shortStoryBox-1 {
@@ -169,7 +169,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.2s;
+  transition: 0.1s;
   cursor: pointer;
 }
 
@@ -209,7 +209,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.2s;
+  transition: 0.1s;
 
 }
 
@@ -237,7 +237,8 @@ html {
   font: 300 30px 'Josefin Sans', sans-serif;
   text-align: center;
   margin: 0;
-  bottom: 60px;}
+  bottom: 60px;
+}
 
 .bookDescriptions-iamprincess,
 .bookDescriptions-thirtyyearslater {
@@ -248,7 +249,7 @@ html {
   left: 0;
   border-radius: 55px;
   display: none;
-  
+
 
 }
 
@@ -270,7 +271,7 @@ html {
   top: 0;
   text-align: center;
   font: 500 48px 'Josefin Sans', sans-serif;
-  
+
 
 }
 
@@ -289,10 +290,8 @@ html {
 }
 
 .iAmaPrincess-descripText {
-  padding: 0px 40px 0px 40px;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  bottom: 200px;
+  padding: 20px 40px 20px 40px;
+  bottom: 185px;
 
 }
 
@@ -301,8 +300,6 @@ html {
   position: absolute;
   width: 600px;
   height: 75px;
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
   background-color: transparent;
   color: #fff;
   bottom: 65px;
@@ -330,7 +327,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .thirtyyearslater-Pic {
@@ -368,7 +365,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .hesBeenThereForAnHour-Pic {
@@ -412,7 +409,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .sorryGrandma-Pic {
@@ -456,7 +453,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .theNightWeDiscovered-Pic {
@@ -495,7 +492,7 @@ html {
   bottom: 25px;
   display: flex;
   justify-content: center;
-  transition: 0.2s;
+  transition: 0.1s;
 
 }
 
@@ -554,6 +551,7 @@ html {
 
 .readNowbutton:hover {
   background-color: rgb(141, 153, 158);
+  border-radius: 100px;
   box-shadow:
     0 0.7px 3.6px rgba(0, 0, 0, 0.024),
     0 1.9px 10px rgba(0, 0, 0, 0.035),

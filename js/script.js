@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     //BRINGS UP BOOK SYNOPSIS
-
     $(".bookBox-1").click(slideUpFunction);
 
     function slideUpFunction() {
@@ -18,7 +17,6 @@ $(document).ready(function () {
 
     //REVERSES SYNOPSIS
 
-
     function slideDownFunction() {
         $(".bookDescriptions-iamprincess").fadeOut();
         $(".main-title").delay(800).slideDown();
@@ -32,7 +30,6 @@ $(document).ready(function () {
     }
 
     //BRINGS UP FULL STORY
-
 
     $(".readNowbutton").click(readNow);
 
@@ -53,7 +50,6 @@ $(document).ready(function () {
     }
 
     //REVERSES FULL STORY
-
 
     function readNowReverse() {
         $(".bookBox-1, .bookBox-2, .bookBox-3, .bookBox-4, .bookBox-5").animate({

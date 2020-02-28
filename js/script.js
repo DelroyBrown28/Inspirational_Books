@@ -16,6 +16,9 @@ $(document).ready(function () {
         $(".bookBox-1").click(slideDownFunction);
     }
 
+    //REVERSES SYNOPSIS
+
+
     function slideDownFunction() {
         $(".bookDescriptions-iamprincess").fadeOut();
         $(".main-title").delay(800).slideDown();
@@ -49,12 +52,20 @@ $(document).ready(function () {
         $(".readNowbutton").click(readNowReverse);
     }
 
+    //REVERSES FULL STORY
+
+
     function readNowReverse() {
         $(".bookBox-1, .bookBox-2, .bookBox-3, .bookBox-4, .bookBox-5").animate({
             top: "0",
         });
+        $(".bookDescription-1").animate({
+            top: "0",
+        });
+        $(".selectStoryBox").animate({
+            right: "2800",
+        });
         $("hr").slideToggle();
-
 
     }
 
